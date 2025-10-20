@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  color:black;
+  box-sizing: border-box;
+}
+#background-image{
+    background-image:url(../images/Scooter.png);
+}
+header{
+    height: 877px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(../images/Scooter.png);
+}
+.content {
+  padding: 0 393px;
+  align-content: center;
+  margin: auto;
+}
+#cap {
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+#cupButton {
+  height: 37px;
+  width: 184px;
+  border: none;
+  border-radius: 10px;
+  background: #ffa019;
+  color: white;
+  font-size: 16px;
+  
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+    background-color: white;
+}
+#logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+#navigation{
+    display: flex;
+    width: 753px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+#image-content{
+    display: flex;
+    flex-direction: column;
+    height: 218px;
+    width: 695px;
+    text-align: center;
+    margin: auto;
+    margin-top: 276px;
+}
+#image-content span{
+    color:white;
+    font-size: 20px;
+}
+#image-content>span:first-child{
+    font-size: 56px;
+}
+#image-content-button{
+    font-size: 12px;
+    width: 149px;
+    height: 39px;
+    border-radius:10px;
+    border:none;
+    font-weight: bold;
+    margin: auto; 
+}
+#advantages-choices{
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 0;
+}
+#choice{
+    display: flex;
+}
+#choice>div{
+    margin: 0 3px;
+}
