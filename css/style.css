@@ -18,6 +18,7 @@ header{
 }
 .content {
   padding: 0 393px;
+  align-content: center;
   margin: auto;
 }
 #cap {
@@ -84,53 +85,9 @@ header{
     justify-content: space-between;
     margin: 72px 0;
 }
-#advantages-choices>span{
-    font-size: 34px;
-}
-#content-advantages{
-    display:flex;
-    justify-content: space-between;
-}
 #choice{
     display: flex;
 }
 #choice>div{
     margin: 0 3px;
-}
-#select{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-#select>svg{
-    margin: auto;
-}
-#select>span{
-    font-size: 20px;
-    margin-top: 40px;
-}
-#about-us{
-    height: 534px;
-}
-#text-about-us>span{
-    font-size: 34px;
-    margin-top: 72px;
-}
-#text-about-us>p{
-    font-size: 20px;
-}
-#text-about-us-content1{
-    margin-top: 60px;
-}
-#text-about-us-content2{
-    margin: 30px 0px 69px 0px;
-}
-#subscription{
-    background-color: #ffa019;
-    height: 94px;
-}
-#subscription>span{
-    font-size: 18px;
-    color:white;
-    
 }
