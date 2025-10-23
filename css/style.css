@@ -4,21 +4,20 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   list-style-type: none;
-  color:black;
+  color: black;
   box-sizing: border-box;
 }
-#background-image{
-    background-image:url(../images/Scooter.png);
+#background-image {
+  background-image: url(../images/Scooter.png);
 }
-header{
-    height: 877px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image:url(../images/Scooter.png);
+header {
+  height: 877px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/Scooter.png);
 }
 .content {
   padding: 0 393px;
-  align-content: center;
   margin: auto;
 }
 #cap {
@@ -36,58 +35,235 @@ header{
   background: #ffa019;
   color: white;
   font-size: 16px;
-  
 }
-#menu{
-    display: flex;
-    justify-content: space-between;
-    height: 62px;
-    align-items: center;
-    background-color: white;
+#menu {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+  background-color: white;
 }
-#logo{
-    font-size: 30px;
-    font-weight: bold;
+#logo {
+  font-size: 30px;
+  font-weight: bold;
 }
-#navigation{
-    display: flex;
-    width: 753px;
-    justify-content: space-between;
-    font-size: 14px;
+#navigation {
+  display: flex;
+  width: 753px;
+  justify-content: space-between;
+  font-size: 14px;
 }
-#image-content{
-    display: flex;
-    flex-direction: column;
-    height: 218px;
-    width: 695px;
-    text-align: center;
-    margin: auto;
-    margin-top: 276px;
+#image-content {
+  display: flex;
+  flex-direction: column;
+  height: 218px;
+  width: 695px;
+  text-align: center;
+  margin: auto;
+  margin-top: 276px;
 }
-#image-content span{
-    color:white;
-    font-size: 20px;
+#image-content span {
+  color: white;
+  font-size: 20px;
 }
-#image-content>span:first-child{
-    font-size: 56px;
+#image-content > span:first-child {
+  font-size: 56px;
 }
-#image-content-button{
-    font-size: 12px;
-    width: 149px;
-    height: 39px;
-    border-radius:10px;
-    border:none;
-    font-weight: bold;
-    margin: auto; 
+#image-content-button {
+  font-size: 12px;
+  width: 149px;
+  height: 39px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  margin: auto;
 }
-#advantages-choices{
-    display: flex;
-    justify-content: space-between;
-    margin: 72px 0;
+#advantages-choices {
+  display: flex;
+  justify-content: space-between;
+  margin: 72px 0;
 }
-#choice{
-    display: flex;
+#advantages-choices > span {
+  font-size: 34px;
 }
-#choice>div{
-    margin: 0 3px;
+#content-advantages {
+  display: flex;
+  justify-content: space-between;
+}
+#choice {
+  display: flex;
+}
+#choice > div {
+  margin: 0 3px;
+}
+#select {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#select > svg {
+  margin: auto;
+}
+#select > span {
+  font-size: 20px;
+  margin-top: 40px;
+}
+#about-us {
+  height: 534px;
+  margin-top: 72px;
+}
+#text-about-us > span {
+  font-size: 34px;
+}
+#text-about-us > p {
+  font-size: 20px;
+}
+#text-about-us-content1 {
+  margin-top: 60px;
+}
+#text-about-us-content2 {
+  margin: 30px 0px 69px 0px;
+}
+#subscription {
+  display: flex;
+  background-color: #ffa019;
+  height: 94px;
+  align-items: center;
+}
+#subscription > span {
+  font-size: 18px;
+  color: white;
+  margin-left: 393px;
+  width: 343px;
+}
+#subscription > form {
+  display: flex;
+  height: 41px;
+  margin-left: 105px;
+  gap: 17px;
+}
+#subscription > form > input {
+  height: 41px;
+  width: 271px;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+#subscription > form > input::placeholder {
+  color: white;
+  padding-left: 20px;
+}
+#subscription > form > button {
+  width: 271px;
+  height: 41px;
+  font-size: 14px;
+  font-weight: bold;
+  border-style: none;
+}
+#features-of-gyroscuters > span:first-child {
+  font-size: 34px;
+}
+#minus-plus-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 63px;
+  margin-bottom: 38px;
+}
+#minus,
+#plus {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#catalog {
+  margin-top: 44px;
+  padding-top: 72px;
+  background-color: #fbfbfb;
+  height: 730px;
+}
+
+#catalog-choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+#catalog-choice > span {
+  font-size: 34px;
+}
+#catalog-buttons {
+  display: flex;
+  gap: 17px;
+}
+#catalog-buttons > button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+#catalog-buttons > button:first-child {
+  background-color: #ffa019;
+  border-radius: 20px;
+  width: 56px;
+  height: 26px;
+}
+#catalog-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+}
+.catalog-content-items {
+  width: 261px;
+  height: 446px;
+  background-color: white;
+}
+#catalog-content-img1,
+#catalog-content-img2,
+#catalog-content-img3,
+#catalog-content-img4 {
+  height: 261px;
+  margin-bottom: 20px;
+}
+.title-catalog-items {
+  height: 45px;
+  align-content: center;
+}
+.title-catalog-items > span {
+  display: inline-block;
+  background-color: #ffa019;
+  padding: 3px 14.95px 3px 14px;
+  border-radius: 0 100px 100px 0;
+}
+.title-content-footer {
+  display: flex;
+  height: 140px;
+  flex-direction: column;
+}
+.title-content-footer-money {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 29px;
+}
+#our-consultant-items {
+  display: flex;
+  justify-content: space-between;
+}
+.our-consultant-items-img {
+}
+#our-consultant-items-information {
+}
+.our-consultant-items-name {
+  font-size: 20px;
+}
+.our-consultant-items-post {
+  font-style: italic;
+  font-size: 12px;
+}
+#our-consultant-item1,
+#our-consultant-item2,
+#our-consultant-item3 {
+  display: flex;
+  width: 163px;
 }
